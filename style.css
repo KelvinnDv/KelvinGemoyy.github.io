@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.wrapper {
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: skyblue;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: purple;
+    border: purple;
+    transition: .7s ease;
+}
+
+
+
+.satu {
+    background-color: crimson;
+}
+.dua {
+    background-color: gold;
+}
+.tiga {
+    background-color: greenyellow;
+}
+.empat {
+    background-color: plum;
+}
+
+
+
